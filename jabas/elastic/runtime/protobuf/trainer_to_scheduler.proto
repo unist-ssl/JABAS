@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "common.proto";
+
+service TrainerToScheduler {
+    // Initializes the job.
+    rpc InitJob (InitJobRequest) returns (Empty);
+    // Update Configuraton
+    rpc UpdateConfig (UpdateConfigRequest) returns (Empty);
+
+    rpc ShutDown (Empty) returns (Empty) {}
+}
+
+message InitJobRequest {
+    uint64 trainer_id = 1;
+}
+
+message UpdateConfigRequest {
+    map<uint32, string> config = 1;
+    uint32 local_batch_size = 2;
+}
+

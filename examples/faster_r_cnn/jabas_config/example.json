@@ -1,0 +1,11 @@
+{
+  "memory_profile_dir": "cluster_mem_profile_data",
+  "comp_profile_dir": "cluster_comp_profile_data",
+  "comm_profile_dir": "../common/comm_profile_data",
+  "bucket_profile_dir": "bucket_profile_data",
+  "gpu_cluster_info": "../common/cluster_config/example_cluster_info.json",
+  "batch_size_lower_bound": 16,
+  "batch_size_upper_bound": 192,
+  "similarity_target": 0.1,
+  "available_servers": ["node0", "node1"]
+}

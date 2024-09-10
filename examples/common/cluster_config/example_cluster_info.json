@@ -1,0 +1,65 @@
+{
+    "node0": {
+        "type": "Tesla V100-PCIE-16GB",
+        "tfplos": 14.13,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 12500000000
+    },
+    "node1": {
+        "type": "Tesla P100-PCIE-16GB",
+        "tfplos": 9.52,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 12500000000
+    },
+    "node2": {
+        "type": "NVIDIA GeForce RTX 3090",
+        "tfplos": 35.58,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 12500000000
+    },
+    "node3": {
+        "type": "TITAN RTX",
+        "tfplos": 16.31,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 12500000000
+    },
+    "node4": {
+        "type": "TITAN Xp",
+        "tfplos": 12.1,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 7000000000
+    },
+    "node5": {
+        "type": "TITAN RTX",
+        "tfplos": 16.31,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 7000000000
+    },
+    "node6": {
+        "type": "Quadro P4000",
+        "tfplos": 5.3,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 7000000000
+    },
+    "node7": {
+        "type": "GeForce RTX 2060",
+        "tfplos": 6.45,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 7000000000
+    },
+    "node8": {
+        "type": "TITAN V",
+        "tfplos": 14.9,
+        "number": 4,
+        "intra_network_bandwidth": 15750000000,
+        "inter_network_bandwidth": 7000000000
+    }
+}

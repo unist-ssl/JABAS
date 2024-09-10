@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "common.proto";
+
+service SchedulerToWorker {
+    // Start list of jobs on worker.
+    rpc RunJob (RunJobRequest) returns (Empty) {}
+    // Resets the worker.
+    rpc Reset (Empty) returns (Empty) {}
+    // Shuts down the worker.
+    rpc Shutdown (Empty) returns (Empty) {}
+}
+
+message RunJobRequest {
+    repeated uint64 trainer_ids = 1;
+    uint32 world_size = 2;
+    string master_addr = 3;
+    map<uint32, string> config = 4;
+    uint32 local_batch_size = 5;
+}

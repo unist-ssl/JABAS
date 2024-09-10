@@ -1,0 +1,17 @@
+pytorch
+vision
+
+examples/**/*.txt
+!requirements.txt
+examples/**/*.pdf
+examples/**/*.png
+examples/**/*.log
+*pt.trace.json
+*profile.json
+*profile_info.json
+logs
+
+__pycache__/
+*.egg-info/
+build/
+dist/

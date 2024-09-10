@@ -1,0 +1,1 @@
+{"model": "resnet50", "gpu_type": "Tesla P100-PCIE-16GB", "lbs": 128, "num_models": 1, "total_time": 591.0701901702624, "data_time": 15.758949004279243, "fwd_time": 187.02662150065103, "bwd_time": 383.59825236002604, "update_time": 4.673714505301581, "copy_time": 0.012652800004515383, "bn_sync_time": 6.29}

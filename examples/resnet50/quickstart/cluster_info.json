@@ -1,0 +1,16 @@
+{
+  "node0": {
+    "type": "Tesla V100-PCIE-16GB",
+    "tfplos": 14.13,
+    "number": 4,
+    "intra_network_bandwidth": 15750000000,
+    "inter_network_bandwidth": 12500000000
+  },
+  "node1": {
+    "type": "Tesla P100-PCIE-16GB",
+    "tfplos": 9.52,
+    "number": 4,
+    "intra_network_bandwidth": 15750000000,
+    "inter_network_bandwidth": 12500000000
+  }
+}

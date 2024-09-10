@@ -1,0 +1,3 @@
+[submodule "iidp_opensource"]
+	path = iidp_opensource
+	url = https://github.com/gyeongchan-yun/iidp_opensource.git

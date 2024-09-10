@@ -1,0 +1,14 @@
+{
+  "memory_profile_dir": "quickstart/cluster_mem_profile_data",
+  "comp_profile_dir": "quickstart/cluster_comp_profile_data",
+  "comm_profile_dir": "quickstart/comm_profile_data",
+  "bucket_profile_dir": "quickstart/bucket_profile_data",
+  "gpu_cluster_info": "quickstart/cluster_info.json",
+  "batch_size_lower_bound": 256,
+  "batch_size_upper_bound": 32768,
+  "similarity_target": 0.1,
+  "available_servers": [
+    "node0",
+    "node1"
+  ]
+}
