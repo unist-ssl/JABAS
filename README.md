@@ -51,7 +51,7 @@ conda activate $CONDA_ENV
 conda install numpy ninja pyyaml mkl mkl-include setuptools cmake cffi typing_extensions future six requests dataclasses -y
 conda install -c pytorch magma-cuda111 -y # For CUDA 11.1
 ```
-Install IIDP by building source code (NOTE: IIDP will be released before the final version is completed.)
+Install IIDP by building source code
 ```bash
 BASE=$HOME # Set the custom base path
 JABAS_HOME=$BASE/JABAS
@@ -61,7 +61,7 @@ VISION_HOME=$BASE/vision
 
 cd $BASE
 
-git clone https://github.com/unist-ssl/JABAS
+git clone --recursive https://github.com/unist-ssl/JABAS
 
 git clone --recursive -b v1.8.1 https://github.com/pytorch/pytorch.git
 cd $PYTORCH_HOME
