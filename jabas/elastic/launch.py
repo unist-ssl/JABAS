@@ -50,8 +50,10 @@ if __name__=='__main__':
 
     parser.add_argument('--log_dir', type=str, default=None,
                         help='Directory where log is stored')
-    parser.add_argument('-s', '--sched_port', type=int, default=50060,
-                        help='Port number for scheduler server')
+    parser.add_argument('-s', '--sched_port', type=int, default=40000,
+                        help='Port number for scheduler server. '
+                             'CAUTION: This must be the same port as the command: '
+                             'jabas/elastic/run_scheduler.py --port 40000')
     parser.add_argument('-w', '--worker_port', type=int, default=50061,
                         help='Port number for worker server')
 
