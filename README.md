@@ -17,7 +17,7 @@ For more details, please refer to EuroSys '25 paper entitled **JABAS: Joint Adap
   * [Software Packages Installation](#software-packages-installation)
   * [Remote storage - NFS setup](#remote-storage---nfs-setup)
 * [Code structure](#code-structure)
-* [QuickStart](#quickstart-for-resnet-50)
+* [QuickStart (EuroSys '25 artifact)](#quickstart-for-resnet-50-eurosys-25-artifact)
 * [Run JABAS](#run-jabas)
 
 <!-- /TOC -->
@@ -146,7 +146,7 @@ df -h
 - `jabas/elastic/`: Main code for elastic training. gRPC communication stack (jabas/elastic/runtime/) is mainly borrowed from [stanford-futuredata/gavel](https://github.com/stanford-futuredata/gavel/tree/master/scheduler/runtime).
 - `examples/`: Example (benchmark) codes for JABAS.
 
-## QuickStart for ResNet-50
+## QuickStart for ResNet-50 (EuroSys '25 artifact)
 Refer to [README.md](examples/resnet50/quickstart/) in ```examples/resnet50/quickstart/``` directory.
 
 ## Run JABAS
