@@ -6,7 +6,7 @@ Major components of JABAS are a DNN training framework called IIDP, which provid
 a fine-grained adaptive batching technique with dynamic configuration,
 and a coarse-grained automatic resource scaling technique that leverages the prediction of global batch size changes for an epoch to auto-scale GPU resources optimally.
 
-For more details, please refer to EuroSys '25 paper entitled **JABAS: Joint Adaptive Batching and Automatic Scaling for DNN Training on Heterogeneous GPUs** (link will be uploaded).
+For more details, please refer to EuroSys '25 paper entitled **JABAS: Joint Adaptive Batching and Automatic Scaling for DNN Training on Heterogeneous GPUs** [[link]](https://dl.acm.org/doi/10.1145/3689031.3696078).
 
 ## Table of Contents
 
